@@ -1,28 +1,19 @@
-== README
+== Wellness App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Purpose
+The purpose of this application is to help users not only become more self-aware of their overall wellness but to actually be engaged in maintaining or improving it based on their needs and goals.
 
-Things you may want to cover:
+## Basics
+The basic information that will be made available in this app are:
 
-* Ruby version
+* Number of hours slept a day
+* Number of steps made per day
+* Provide daily weather forecast 
+* Provide allergy count
+* Possible integration with a fitness tracker
+* Setting a reminder of when to go to sleep
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+## Tech / APIs
+* [Forecast.io] (https://developer.forecast.io/docs/v2) for weather and pollen count
+* [Fitbit] (https://dev.fitbit.com/) to capture activity information
+* [OmniAuth] (https://github.com/tkgospodinov/omniauth-fitbit) to implement OAuth with Fitbit
